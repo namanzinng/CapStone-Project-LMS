@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Information</title>
+    <link rel="stylesheet" href="searchBookByID.css">
+</head>
+<body>
+    <!-- <h2>Book Information Lookup</h2> -->
+    <form action="searchBookByID.php" method="get">
+        <h2><label for="bookId">Enter Book ID:</label></h2>
+        <input type="text" id="bookId" name="bookId" required>
+        <button type="submit">Get Book Information</button>
+    </form>
+
+    <div id="result"></div>
+</body>
+</html>
